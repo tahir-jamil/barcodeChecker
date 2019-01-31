@@ -7,7 +7,7 @@ import { SendReciveComponent } from "./send-recive/send-recive.component";
 
 
 const routes: Routes = [
-    { path: "", redirectTo: "/inputfield", pathMatch: "full" },
+    { path: "", redirectTo: "/qrpage", pathMatch: "full" },
     { path: "qrpage", component:  QrPageComponent },
     { path: "inputfield", component:  InputFieldComponent },
     { path: "sendrecive", component:  SendReciveComponent },
