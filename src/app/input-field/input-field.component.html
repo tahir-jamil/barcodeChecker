@@ -1,0 +1,26 @@
+<GridLayout rows="auto,auto,auto,auto,auto" class="background">
+    <GridLayout row="0" rows="auto" columns="*,auto,*">
+        <Label col="0" class="actionbar" text="&#xe5cb; back"></Label>
+        <Label col="1" class="actionbar" text="Send"></Label>
+        <Label col="2" class="actionbar" text="&#xe412;" horizontalAlignment="right"></Label>
+    </GridLayout>
+
+    <textfield hint="Enter a Trtl Address" class="input-f" row="1"></textfield>
+
+    <GridLayout rows="*,*,*" columns="*" row="2" class="height">
+
+        <Button row="0" text="Max"      horizontalAlignment="left"   class="max" ></Button>
+        <Label  row="0" text="400trtl"  horizontalAlignment="center" class="text-pri" ></Label>
+        <Label  row="1" text="&#xe0c3;" horizontalAlignment="center" ></Label>
+        <Label  row="2" text="$0.02"    horizontalAlignment="center" class="text-mut" ></Label>
+    </GridLayout>
+
+    <WrapLayout horizontalAlignment="center" orientation="horizontal" row="3">
+        <GridLayout rows="*" *ngFor='let item of items; let i=index' columns="*" [width]="itemWidth" [height]="itemHeight">
+            <button [text]="item.number" class="tr-btn"></button>
+        </GridLayout>
+    </WrapLayout>
+
+    <Button row="4" class="btn " text="Send"></Button>
+
+</GridLayout>

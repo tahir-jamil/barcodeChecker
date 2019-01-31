@@ -1,0 +1,33 @@
+.background{
+    background-color: rgb(0, 60, 0);
+    }
+.list{
+    background-color:white;
+}
+.itemColor{
+    color: white;
+    font-size: 20;
+    font-weight: 300;
+}
+.margin-top{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+.btn{
+    color: white;
+    background-color:  rgb(0, 120, 0);
+    border-radius: 5%;
+    height: 8%;
+    width: 40%;
+    font-size: 20;
+}
+.margin{
+    margin: 3%;
+}
+.border{
+    border-bottom-width: 1dp;
+    border-bottom-color: gray;
+}
