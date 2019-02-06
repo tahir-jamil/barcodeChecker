@@ -8,14 +8,38 @@
     font-size: 20;
 }
 
-.actionbar{
+.p-12 {
+    padding: 12%;
+}
+
+.f-28 {
+    font-size: 28dp;
+}
+
+.white{
     color: white;
-    font-size: 20;
-    font-weight: 300;
+}
+
+.p-10 {
+    padding: 10dp;
+}
+
+.b-b-10 {
+    border-bottom: 10dp;
+}
+
+.numberPadding {
+    /* padding: 12dp 22dp 12dp 22dp; */
+    border-radius: 100%;
+}
+
+.activeNumber {
+    background-color: #FF779F;
+    color: white;
 }
 
 .input-f{
-    height: 11%;
+    height: 7%;
     padding-top:5%;
     padding-bottom:5%;
     padding-left:5%;
@@ -26,7 +50,7 @@
 }
 
 .height{
-    height: 22%;
+    height: 18%;
     background-color: rgb(149, 192, 64);
     padding-top:5%;
     padding-bottom:5%;
@@ -42,16 +66,30 @@
     width: 80%;
     font-size: 20;
     margin-bottom: 4%;
+    padding-top: 10dp;
 }
+
+.line {
+    height: 0.6dp;
+    background-color: rgb(134, 134, 134);
+}
+
+.f-26 {
+    font-size: 26;
+}
+
+.white {
+    color: white;
+}
+
 .max{
     color: white;
     background-color:  rgb(0, 90, 0);
     border-radius: 5%;
     font-size: 14;
-    height: 20%;
-    padding-left:10%;
-    padding-right:10%;
+    padding:5% 10% 5% 10%;
 }
+
 .text-mut{
     color: rgb(81, 97, 81); ;
     font-size: 18;

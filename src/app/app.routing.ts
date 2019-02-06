@@ -3,15 +3,13 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
 import { QrPageComponent } from "./qr-page/qr-page.component";
 import { InputFieldComponent } from "./input-field/input-field.component";
-import { SendReciveComponent } from "./send-recive/send-recive.component";
-
+import { HomeComponent } from "./home/home.component";
 
 const routes: Routes = [
-    { path: "", redirectTo: "/qrpage", pathMatch: "full" },
-    { path: "qrpage", component:  QrPageComponent },
-    { path: "inputfield", component:  InputFieldComponent },
-    { path: "sendrecive", component:  SendReciveComponent },
-
+    { path: "", redirectTo: "/home", pathMatch: "full" },
+    { path: "send", component:  QrPageComponent },
+    { path: "receive", component:  InputFieldComponent },
+    { path: "home", component:  HomeComponent }
 ];
 
 @NgModule({
